@@ -1,0 +1,22 @@
+.alert-block {
+  width: 460px;
+  height: 57px;
+  padding: 16px, 24px, 16px, 24px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 155px;
+  left: 450px;
+
+}
+.alert-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; 
+  margin: 0px 12px;
+}

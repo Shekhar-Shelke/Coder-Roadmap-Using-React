@@ -1,0 +1,65 @@
+.aftnav {
+  width: 100%;
+  height: 64px;
+  background: #052a44;
+}
+.lines-3 {
+  margin-right: 38px;
+}
+.aftnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 18px;
+}
+.join {
+  display: flex;
+}
+.my-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+}
+.lines-3{
+    cursor: pointer;
+}
+.pro-pic{
+    margin-right: 16px;
+    cursor: pointer;
+}
+.logout-icon{
+    cursor: pointer;
+}
+.profile-text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px 8px 0px 16px;
+}
+
+
+
+
+.horizontal-nav {
+  width: 64px;
+  height: 1137px;
+  background: #052a44;
+    position: absolute;
+}
+.mycourses-menu {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.submenu :hover{
+    background-color: red;
+}

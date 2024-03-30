@@ -1,0 +1,67 @@
+.proc-com {
+  width: 100%;
+  height: 669px;
+  /* border: 2px solid red; */
+  padding: 64px;
+}
+.pro-com-logo {
+  text-align: center;
+}
+
+.sucess-text {
+  color: #052a44;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.succ-line {
+  color: #052a44;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+.succ-btn{
+    width: 220px;
+}
+.com-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.pro-com-logo img{
+    width: 124px;
+    transition: width 2s ease-in-out;
+    animation-name: success ;
+    animation: success 2s 1 ease-in-out;
+}
+@keyframes success{
+    0% {
+        width: 20px;
+        transition-timing-function: ease-in-out;
+    }
+    /* 25% {
+        width:50px;
+        transition-timing-function: ease-in-out;
+    }
+    50% {
+        width:75px ;
+        transition-timing-function: ease;
+    }
+    75% {
+        width:100px ;
+        transition-timing-function: ease;
+    } */
+
+    100% {
+        width: 124px;
+    }
+}

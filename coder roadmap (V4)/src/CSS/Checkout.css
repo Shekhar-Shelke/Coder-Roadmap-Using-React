@@ -1,0 +1,60 @@
+.card-details {
+  height: 320px;
+  width: 100%;
+  /* border: 2px solid rebeccapurple; */
+  padding: 24px 112px 0px 113px;
+  display: flex;
+}
+.card-info {
+  width: 871px;
+  height: 290px;
+  flex-shrink: 0;
+  /* border: 1px solid #0741ff; */
+  background-color: #fff;
+  padding: 24px;
+}
+.input-size input {
+  width: 399px;
+}
+.flex-input {
+  display: flex;
+}
+.input-margin {
+  margin-right: 25px;
+}
+.bottom-margin {
+  margin-bottom: 24px;
+}
+.checkout-btn {
+  width: 158px;
+}
+.card-details {
+  margin-bottom: 355px;
+}
+.checkout-cour-name {
+  width: 320px;
+  height: 97px;
+  flex-shrink: 0;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin-left: 24px;
+  padding: 24px;
+}
+.cource-name-checkout {
+  color: #231f20;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+  margin-bottom: 4px;
+}
+.checkout-cour-value {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+}
+

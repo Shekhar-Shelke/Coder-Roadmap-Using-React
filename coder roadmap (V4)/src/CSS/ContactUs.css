@@ -1,0 +1,129 @@
+/* *************** Start contact us **************** */
+.sub-contact {
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 64px;
+    background-color: #F1F3F7;
+    /* border: 2px solid red; */
+}
+
+.sec-1 h1 {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 75px;
+    color: #052A44;
+    margin-bottom: 16px;
+}
+
+.para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #052A44;
+}
+
+.map-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 811px;
+    margin-bottom: 31px;
+    /* border: 2px solid rgb(3, 255, 78); */
+
+}
+
+.map img {
+
+    object-fit: cover;
+}
+
+.dot {
+    position: absolute;
+    right: 450px;
+    top: 907px;
+    z-index: 1;
+}
+
+.dot-1 {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(98, 85, 165, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dot-2 {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(98, 85, 165, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dot-3 {
+    width: 8px;
+    height: 8px;
+    background-color: #6255A5;
+    border-radius: 50%;
+}
+
+.sec-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-sec-2 {
+    width: 1216px;
+    height: 316px;
+    background-color: #6255A5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 112px;
+}
+
+.part-heading {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.part-headline {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+
+.part-email {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* *************** End contact us **************** */

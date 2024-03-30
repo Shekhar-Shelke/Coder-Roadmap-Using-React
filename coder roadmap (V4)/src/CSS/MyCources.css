@@ -1,0 +1,96 @@
+.btn-flexx {
+  display: flex;
+}
+.flt-img {
+  margin-left: 5px;
+}
+.dis-set {
+  justify-content: space-between;
+}
+.aftcource {
+  width: 292px;
+  height: 273px;
+  border: 2px solid red;
+  margin-left: 90px;
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid #f1f3f7;
+  background: #fff;
+}
+.mycources {
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+}
+.course_name {
+  color: #052a44;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lesson {
+  border-radius: 16px;
+  background: #f1f3f7;
+  display: flex;
+  align-items: center;
+  width: 102px;
+  height: 24px;
+  padding: 4px 8px 4px 8px;
+  margin-bottom: 92px;
+}
+.class_img {
+  color: #052a44;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 102px;
+  height: 17px;
+  margin: -2.9px;
+  display: flex;
+}
+.presentage-of-course-comted {
+  display: flex;
+  margin-bottom: 39px;
+}
+.complet-txet {
+  color: #858c9b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.presentage-text {
+  margin-right: 4px;
+  color: #6255a5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.start-cou {
+  color: #6255a5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
+
+
+
+
+/* ********dashborad******* */
+.dashborad-img{
+  margin-left: 65px;
+}
+.dashborad-img img{
+  width: 100%;
+}

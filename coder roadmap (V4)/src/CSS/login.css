@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Roboto';
+    /* margin: 15px; */
+    background-color: #E5E5E5;
+    ;
+}
+
+/* ********** logo style start *********** */
+.logo1 {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 208px; */
+    margin-bottom: 64px;
+
+}
+
+.logo1 a {
+    text-decoration: none;
+}
+
+.logo1 span {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 66px;
+}
+
+.c1 {
+    color: #052A44;
+}
+
+.W {
+    color: #FFFFFF;
+}
+
+.oder1 {
+    color: #E99F00;
+}
+
+.road1 {
+    color: #F43C64;
+}
+
+.map1 {
+    color: #6255A5;
+}
+
+/* ********** logo style End *********** */
+
+/* ********************* Login section start *************************  */
+.login-sec {
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    margin-bottom: 178px;
+}
+
+.login-box {
+    width: 540px;
+    height: 358px;
+    background-color: #F1F3F7;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.input input {
+    width: 476px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 14px 0px 14px 23px;
+    /* margin-left: 32px; */
+}
+.input-1{
+    width: 476px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 14px 0px 14px 23px;
+}
+
+.input-login {
+    width: 540px;
+    /* height: 358px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 32px 32px 24px 32px; */
+}
+#username {
+    margin: 32px 32px 24px 32px;
+}
+
+.input-1::placeholder {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #858C9B;
+    /* padding: 14px 0px 14px 23px; */
+}
+
+.forget-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.forget {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #858C9B;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.login input {
+    width: 165px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    list-style: 19px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #FFFFFF;
+    animation-delay: 0.8s;
+    border: 2px solid #6255A5;
+    cursor: pointer;
+    background-color: #6255A5;
+}
+
+.background-color {
+    width: 100%;
+    height: 476px;
+    background-color: #6255A5;
+
+}
+
+.lineback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2px;
+}
+
+.line-login {
+    width: 476px;
+    height: 2px;
+    background-color: #D9D9D9;
+    margin-bottom: 12px;
+}
+
+.dont-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #858C9B;
+    padding-bottom: 30px;
+}
+
+.signup-text span {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6255A5;
+}
+.signup-text  a{
+    text-decoration: none;
+}
+
+/* ********************* Login section End *************************  */
+
+
+/* ********** Section -7 Start  *********** */
+.login-footer {
+    width: 100%;
+    height: 128px;
+    background: #052A44;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: space-around;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* float: right; */
+    margin-left: 40rem;
+}
+
+.footer-logo {
+    /* float: left; */
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.logo-2 {
+
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1.866rem;
+    line-height: 33px;
+
+}
+
+/* ********** Section -7 End  *********** */

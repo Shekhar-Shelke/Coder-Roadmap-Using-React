@@ -1,0 +1,120 @@
+
+/* ********** Start Abouts us *********** */
+
+.sub-abouts {
+    width: 100%;
+    height: 275px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 64px;
+    background-color: #F1F3F7;
+}
+
+.abouts-heading h1 {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 75px;
+    color: #052A44;
+    margin-bottom: 16px;
+}
+
+.para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #052A44;
+    width: 788px;
+    height: 56px;
+}
+
+/* ********** End Abouts us *********** */
+
+/* ********** Start Section-1 *********** */
+.sec-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-1-heading h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+    color: #052A44;
+    margin-bottom: 16px;
+}
+
+.sec-1-para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 960px;
+    height: 140px;
+    color: #052A44;
+    margin-bottom: 28px;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* .img-org{
+     */
+
+/* ********** End Section-1 *********** */
+
+/* ********** Start Vision-Section *********** */
+.sec-vision {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 112px;
+}
+
+.sub-sec-vision {
+    width: 1216px;
+    height: 316px;
+    background-color: #6255A5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 112px; */
+}
+
+.sec-vision-heading h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.sec-vision-para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 882px;
+    height: 112px;
+    color: #FFFFFF;
+}
+
+
+/* ********** End Vision-Section *********** */
