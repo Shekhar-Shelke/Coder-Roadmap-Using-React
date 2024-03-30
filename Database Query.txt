@@ -1,4 +1,4 @@
-// node-modules file is missing
+// node-modules file is missing and only understand of react learner of this statement
  
 //Foregin key query
 
