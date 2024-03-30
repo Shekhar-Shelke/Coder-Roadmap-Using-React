@@ -1,0 +1,21 @@
+// node-modules file is missing
+ 
+//Foregin key query
+
+CREATE TABLE shop (sid INT(50) NOT NULL AUTO_INCREMENT PRIMARY KEY , cus_id INT(50), customer_id INT(50), cardname varchar(50),cardnumber varchar(50),expiration INT(50), cvvnum varchar(50), FOREIGN KEY (cus_id) REFERENCES signup(id) );
+
+//create table signup with primary key
+
+CREATE TABLE signup (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    fname VARCHAR(100),	
+    lname VARCHAR(100),
+    mobno VARCHAR(100),
+    Email VARCHAR(100),
+    Level VARCHAR(100),		
+    username VARCHAR(100),
+    password VARCHAR(100)   
+    
+);
+
+
