@@ -1,9 +1,6 @@
 // node-modules file is missing and only understand of react learner of this statement
- 
-//Foregin key query
 
-CREATE TABLE shop (sid INT(50) NOT NULL AUTO_INCREMENT PRIMARY KEY , cus_id INT(50), customer_id INT(50), cardname varchar(50),cardnumber varchar(50),expiration INT(50), cvvnum varchar(50), FOREIGN KEY (cus_id) REFERENCES signup(id) );
-
+// excute following Query in myPHPadmin with xampp server 
 //create table signup with primary key
 
 CREATE TABLE signup (
@@ -17,5 +14,11 @@ CREATE TABLE signup (
     password VARCHAR(100)   
     
 );
+
+//Foregin key query
+
+CREATE TABLE shop (sid INT(50) NOT NULL AUTO_INCREMENT PRIMARY KEY , cus_id INT(50), customer_id INT(50), cardname varchar(50),cardnumber varchar(50),expiration INT(50), cvvnum varchar(50), FOREIGN KEY (cus_id) REFERENCES signup(id) );
+
+
 
 
